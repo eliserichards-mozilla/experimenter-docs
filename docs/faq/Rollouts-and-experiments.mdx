@@ -29,7 +29,7 @@ The long answer is: while both are running, an experiment client with actually b
 If both the experiment and the rollout are focused on the same fields of the treatment JSON, **the experiment will take precedence** and in this case the behavior will be as you state: effectively, the client immediately joins the rollout.
 
 If they’re focused on different fields of the JSON, the behavior the clients gets will go from “experiment+rollout” to “rollout only”.
-
+  
 ----
 
 ### Question
